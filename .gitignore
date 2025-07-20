@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtualenv
+venv/
+env/
+ENV/
+.venv/
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# SQLite (if used during dev)
+*.sqlite3
+
+# Secrets
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Python bytecode cache
+*.bak
+*.~ 
